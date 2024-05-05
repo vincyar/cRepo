@@ -1,0 +1,19 @@
+05:04:23 **** Rebuild of configuration Debug for project Basic Mathamatics ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Basic Mathamatics.o" "..\\src\\Basic Mathamatics.c" 
+..\src\Basic Mathamatics.c: In function 'main':
+..\src\Basic Mathamatics.c:21:16: error: expected expression before ')' token
+  scanf("%d%d",&)
+                ^
+..\src\Basic Mathamatics.c:17:12: warning: unused variable 'result' [-Wunused-variable]
+  float b,c,result;
+            ^~~~~~
+..\src\Basic Mathamatics.c:17:10: warning: unused variable 'c' [-Wunused-variable]
+  float b,c,result;
+          ^
+..\src\Basic Mathamatics.c:17:8: warning: unused variable 'b' [-Wunused-variable]
+  float b,c,result;
+        ^
+
+05:04:23 Build Failed. 1 errors, 3 warnings. (took 260ms)
+

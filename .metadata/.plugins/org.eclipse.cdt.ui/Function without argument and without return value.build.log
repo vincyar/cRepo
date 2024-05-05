@@ -1,0 +1,7 @@
+05:04:26 **** Rebuild of configuration Debug for project Function without argument and without return value ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Function withput.o" "..\\src\\Function withput.c" 
+gcc -o "Function without argument and without return value.exe" "src\\Function withput.o" 
+
+05:04:26 Build Finished. 0 errors, 0 warnings. (took 755ms)
+

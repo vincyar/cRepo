@@ -1,0 +1,7 @@
+05:04:31 **** Rebuild of configuration Debug for project Practice ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Practice.o" "..\\src\\Practice.c" 
+gcc -o Practice.exe "src\\Practice.o" 
+
+05:04:32 Build Finished. 0 errors, 0 warnings. (took 709ms)
+

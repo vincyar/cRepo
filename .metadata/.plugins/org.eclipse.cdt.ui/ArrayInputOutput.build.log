@@ -1,0 +1,7 @@
+05:04:21 **** Rebuild of configuration Debug for project ArrayInputOutput ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayInputOutput.o" "..\\src\\ArrayInputOutput.c" 
+gcc -o ArrayInputOutput.exe "src\\ArrayInputOutput.o" 
+
+05:04:22 Build Finished. 0 errors, 0 warnings. (took 653ms)
+

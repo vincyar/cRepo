@@ -1,0 +1,23 @@
+/*
+ ============================================================================
+ Name        : ssk.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+    setbuf(stdout,NULL);
+    int number,limit;
+    printf("Enter a limit to print numbers until the limit");
+    scanf("%d",&limit);
+    while(number<=10){
+    	printf("sree");
+    }
+	return EXIT_SUCCESS;
+}

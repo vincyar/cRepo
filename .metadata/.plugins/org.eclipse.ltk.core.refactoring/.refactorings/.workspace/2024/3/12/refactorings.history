@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Function withput&apos; to &apos;Function without argument and without return value&apos;" description="Rename resource &apos;Function withput&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Function withput" name="Function without argument and without return value" stamp="1710657202767" updateReferences="true"/>
+</session>

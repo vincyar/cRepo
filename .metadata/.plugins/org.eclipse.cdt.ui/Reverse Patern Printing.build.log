@@ -1,0 +1,7 @@
+05:04:33 **** Rebuild of configuration Debug for project Reverse Patern Printing ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Reverse Patern Printing.o" "..\\src\\Reverse Patern Printing.c" 
+gcc -o "Reverse Patern Printing.exe" "src\\Reverse Patern Printing.o" 
+
+05:04:34 Build Finished. 0 errors, 0 warnings. (took 645ms)
+

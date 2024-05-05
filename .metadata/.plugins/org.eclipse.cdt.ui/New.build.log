@@ -1,0 +1,11 @@
+05:04:30 **** Rebuild of configuration Debug for project New ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\New.o" "..\\src\\New.c" 
+..\src\New.c: In function 'main':
+..\src\New.c:25:19: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  for(i=0 ,j=n;i<n ,j<n;i++ ,j--){
+                   ^
+gcc -o New.exe "src\\New.o" 
+
+05:04:30 Build Finished. 0 errors, 1 warnings. (took 638ms)
+

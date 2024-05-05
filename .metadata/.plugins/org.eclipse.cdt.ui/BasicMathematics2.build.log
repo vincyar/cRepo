@@ -1,0 +1,15 @@
+00:12:40 **** Incremental Build of configuration Debug for project BasicMathematics2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\BasicMathematics2.o" "..\\src\\BasicMathematics2.c" 
+..\src\BasicMathematics2.c: In function 'main':
+..\src\BasicMathematics2.c:22:7: warning: comparison between pointer and integer
+   if(a=="sum"){
+       ^~
+..\src\BasicMathematics2.c:22:7: warning: comparison with string literal results in unspecified behavior [-Waddress]
+..\src\BasicMathematics2.c:24:25: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+    printf("Result is : %d",&result);
+                         ^
+gcc -o BasicMathematics2.exe "src\\BasicMathematics2.o" 
+
+00:12:41 Build Finished. 0 errors, 3 warnings. (took 490ms)
+
